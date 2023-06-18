@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+header {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+header nav {
+    font-size: 2.3rem;
+}
+
+ul.navbar-nav li {
+    padding-left: 1rem;
+}
+
+ul.dropdown-menu {
+    font-size: 2.3rem;
+}
+
+nav form input {
+    font-size: 2.3rem !important;
+}
+
+.card {
+    font-size: 2.3rem;
+}
+.btn {
+    font-size: 2.3rem !important;
+}
+
+.card .mytasks,
+.card .myheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal .modal-header,
+.modal .modal-footer .btn,
+.modal .modal-body .form-control {
+    font-size: 2.3rem !important;
+}
+
+.card ul {
+    width: 100%;
+}
+
+.card ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 3rem;
+    border: 2px solid black;
+}
+
+.card ul li .mycontrol {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 3fr 5fr;
+    justify-items: center;
+    align-content: center;
+}
+
+.mycontrol div {
+    justify-self: center;
+}
+
+.mycheckbox {
+    width: 2rem;
+    height: 2rem;
+    transition: 1s;
+}
+
+.mycheckbox:hover {
+    width: 3rem;
+    height: 3rem;
+}
+
+.mybuttons {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mybuttons .btn {
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+}
